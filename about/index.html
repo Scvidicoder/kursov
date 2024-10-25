@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../resources/images/favicon.png">
+    <link rel="stylesheet" href="about-style.css">
+    <link rel="stylesheet" href="../resources/styles/header.css">
+    <link rel="stylesheet" href="../resources/styles/footer.css">
+    <link rel="stylesheet" href="../resources/styles/scrollbar.css">
+    <script src="about_script.js" defer></script>
+    <script src="../resources/scripts/header.js" defer></script>
+    <title>Sweet Deal</title>
+</head>
+<body>
+    <header class="header">
+        <div class="img-cont" id="logo-cont">
+            <a href="../main">
+                <img src="../resources/images/transparent_logo.png" id="img-logo" alt="logo">
+            </a>
+            </div>
+        <nav>
+            <input id="burger" type="checkbox">
+            <label for="burger" class="menu-button">
+            <span></span>
+            </label>
+            <ul>
+                <li class="nav-li"><a href="../main">Главная</a></li>
+                <li class="nav-li"><a href="../about">О нас</a></li>
+                <li class="nav-li"><a href="../catalog">Каталог</a></li>
+                <li>
+                    <a href="../basket/"><div class="img-cont" id="basket-cont">
+                        <div id="basket-counter">
+                            <p></p>
+                        </div>
+                        <img src="" id="img-basket" alt="logo">
+                </div></a>  
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="head-splitter"></div>
+    <main>
+        <section id="init-display">
+            <div id="section1-cont">
+                <div id="main-text-cont">
+                    <h1>О нас</h1>
+                    <p>Немного информации о нашем магазине</p>
+                </div>
+            </div>
+        </section>
+        <section id="init-info">
+            <div id="init-info-content">
+                <h2>Sweet Deal - ваш проводник в мир сладкой жизни!</h2>
+                <p>Наш магазин работает уже три года и за это время собрал огромную базу клиентов и положительных отзывов.</p>
+                <p>Давайте подробнее рассмотрим процесс получения Вами сладостей из нашего магазина.</p>
+            </div>
+        </section>
+        <section id="path-info">
+            <div class="info-item">
+                <div class="pict">
+                    <img src="../resources/images/about_path_imgs/factory.png">
+                </div>
+                <div class="info">
+                    <h3>Мы являемся ритейлером</h3>
+                    <p>Продукты поступают нам непосредственно с заводов-производителей со всеми сопутствующими документами</p>
+                </div>
+            </div>
+            <div class="split"></div>
+
+            <div class="info-item">
+                <div class="pict">
+                    <img src="../resources/images/about_path_imgs/warehouse.png">
+                </div>
+                <div class="info">
+                    <h3>Склады по всей России</h3>
+                    <p>Товары ждут своего заказчика на специально оборудованных складах в соответствии с условиями хранения</p>
+                </div>
+            </div>
+            <div class="split"></div>
+
+            <div class="info-item">
+                <div class="pict">
+                    <img src="../resources/images/about_path_imgs/order.png">
+                </div>
+                <div class="info">
+                    <h3>Оформление заказа</h3>
+                    <p>Как только Ваш заказ был подтвержден мы сразу же приступаем к его сборке и отправке</p>
+                </div>
+            </div>
+            <div class="split"></div>
+            <div class="info-item">
+                <div class="pict">
+                    <img src="../resources/images/about_path_imgs/courier.png">
+                </div>
+                <div class="info">
+                    <h3>Получение заказа</h3>
+                    <p>Мы доставляем Ваш заказ в кратчайшие сроки и в любую точку России, а Вам остается лишь наслаждаться сладостями</p>
+                </div>
+            </div>
+            <div class="split"></div>
+
+            <div id="offer-info">
+                <img src="../resources/images/about_path_imgs/discount.png">
+                <h1>Ваша скидка на первый заказ</h1>
+                <button id="cat-button" onclick="location.href='../catalog'">ПЕРЕЙТИ К КАТАЛОГУ</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footer-content">
+            <div id="footer-info">
+                <img src="../resources/images/transparent_logo.png" alt="">
+                <a href="mailto:martynovq03@gmail.com">Написать на почту</a>
+                <a href="tel:+72222222222">Позвонить</a>
+            </div>
+            <div id="footer-icons-cont">
+                <a href="http://web.telegram.org" target="_blank">
+                    <img src="../resources/images/telegram.png" alt="">
+                </a>
+                <a href="http://youtube.com" target="_blank">
+                    <img src="../resources/images/youtube.png" alt="">
+                </a>
+                <a href="http://snapchat.com" target="_blank">
+                    <img src="../resources/images/snapchat.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div id="footer-cpr">© 2023 Sweet Deal. <a target="_blank" href="http://github.com/martynovvladislav">Выполнил Мартынов Владислав ИКБО-16-22</a>.</div>
+    </footer>
+</body>
